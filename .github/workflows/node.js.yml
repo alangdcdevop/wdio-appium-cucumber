@@ -28,9 +28,8 @@ jobs:
       with:
         node-version: 14.x
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+    - run: npm install
+    # - run: npm test
     - name: Gradle cache
       uses: gradle/gradle-build-action@v2
         
@@ -61,5 +60,6 @@ jobs:
     #     emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
     #     disable-animations: true
     #     script: ./gradlew connectedCheck
+    - run: npm run wdio
 
 
