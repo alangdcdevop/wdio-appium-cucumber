@@ -61,7 +61,7 @@ exports.config = {
         // acceptInsecureCerts: true,
         platformName: "Android",
         deviceName: "Pixel_2_API_30",
-        app: "C:\\Users\\alan.duarte_nybblegr\\Downloads\\selendroid-test-app.apk"
+        app: "./selendroid-test-app.apk"
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
