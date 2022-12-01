@@ -54,6 +54,7 @@ jobs:
 
     
     #     script: ./gradlew connectedCheck
-    - run: adb devices
+    #- run: adb devices
+    - run: npm run wdi
 
 
